@@ -1,0 +1,57 @@
+.parent_formwrap {
+  margin-left: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  height: 45px;
+  width: 400px;
+  /* border: 1px #e0f2f1 solid; */
+}
+
+@media screen and (max-width: 960px) {
+  .parent_formwrap {
+    margin-left: 60px;
+    margin-right: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 190px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/*
+.parent_formwrap :active {
+  background-color: #fff;
+}*/
+.parent_formwrap input {
+  border-bottom: none !important;
+  background-color: none !important;
+  text-align: center;
+  width: 600px;
+  border-radius: 5px !important;
+  justify-content: center;
+  height: 40px !important;
+}
+
+@media screen and (max-width: 960px) {
+  .parent_formwrap input {
+    margin-left: 25%;
+    /* background: rgba(0, 0, 0, 0.9) !important; */
+    border-radius: 5px;
+    width: 400%;
+    height: 38px !important;
+  }
+}
+
+.search_icon {
+  margin-top: -5px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+  .search_icon {
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 18px !important;
+  }
+}

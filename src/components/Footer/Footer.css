@@ -1,0 +1,9 @@
+.page-footer {
+  background: #064757;
+  /* background: linear-gradient(120deg, #064757 20%, #04afda); */
+  padding-top: 50px;
+}
+
+.footer-copyright {
+  background: #064757 !important;
+}

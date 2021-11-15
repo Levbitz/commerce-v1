@@ -1,0 +1,21 @@
+/* .tech__notes {
+  background-color: red;
+} */
+
+.tech__notes h5 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #064757;
+}
+
+.tech__notes p {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.tech__notes ul li {
+  font-size: 15px;
+  color: rosybrown;
+  list-style: circle;
+}
